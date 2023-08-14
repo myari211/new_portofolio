@@ -112,7 +112,7 @@ const HomePage = () => {
                                         <MDBIcon icon="download" />
                                         &nbsp;&nbsp;Download My CV
                                     </MDBBtn>
-                                    <MDBBtn outline color="warning" className="text-capitalize shadow-0" style={{ marginLeft: "30px"}}>
+                                    <MDBBtn outline color="warning" className="text-capitalize shadow-0" style={{ marginLeft: "30px"}} onClick={(event) => handleButtonUrl(event, 'https://api.whatsapp.com/send/?phone=6281272317198')}>
                                         <MDBIcon icon="fas fa-phone" />
                                         &nbsp;&nbsp;Contact Me
                                     </MDBBtn>
@@ -235,7 +235,7 @@ const HomePage = () => {
                             <MDBIcon fab icon='instagram' style={{fontSize: "50px"}} />
                         </MDBBtn>
                         <MDBBtn className="p-2 rounded-circle" color="success border">
-                            <MDBIcon fab icon='whatsapp' style={{fontSize: "50px"}}/>
+                            <MDBIcon fab icon='whatsapp' style={{fontSize: "50px"}} onClick={(event) => handleButtonUrl(event, 'https://api.whatsapp.com/send/?phone=6281272317198')}/>
                         </MDBBtn>
                     </MDBCol>
                 </MDBRow>
