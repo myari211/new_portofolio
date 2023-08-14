@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/new_portofolio/static/css/main.1daa2c04.css",
+    "main.js": "/new_portofolio/static/js/main.583a3e79.js",
+    "static/js/787.b7af92ad.chunk.js": "/new_portofolio/static/js/787.b7af92ad.chunk.js",
+    "static/media/fa-solid-900.ttf": "/new_portofolio/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/mysql.png": "/new_portofolio/static/media/mysql.c2073db7c71dd084f5c7.png",
+    "static/media/api.png": "/new_portofolio/static/media/api.6e9f336e19036bd72642.png",
+    "static/media/javascript.png": "/new_portofolio/static/media/javascript.ba0a928588f389c91981.png",
+    "static/media/fa-brands-400.ttf": "/new_portofolio/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/new_portofolio/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/profile.jpg": "/new_portofolio/static/media/profile.3a688e99fb131dad28f1.jpg",
+    "static/media/laravel.png": "/new_portofolio/static/media/laravel.c33ce2826e4265a6b2be.png",
+    "static/media/fa-brands-400.woff2": "/new_portofolio/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/vue.png": "/new_portofolio/static/media/vue.df6ee7e0a8d0909d4fad.png",
+    "static/media/fa-regular-400.ttf": "/new_portofolio/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/github.png": "/new_portofolio/static/media/github.53ebe5897a7230413bab.png",
+    "static/media/mongo.png": "/new_portofolio/static/media/mongo.41ae1969f341d30268a1.png",
+    "static/media/css.png": "/new_portofolio/static/media/css.9a088dd12159725b7a63.png",
+    "static/media/react.png": "/new_portofolio/static/media/react.20adfb35ae6a6e5817bf.png",
+    "static/media/fa-regular-400.woff2": "/new_portofolio/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/php.png": "/new_portofolio/static/media/php.3fc15cf443a81ef2d0a4.png",
+    "static/media/fa-v4compatibility.ttf": "/new_portofolio/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/new_portofolio/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/logo.svg": "/new_portofolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/new_portofolio/index.html",
+    "main.1daa2c04.css.map": "/new_portofolio/static/css/main.1daa2c04.css.map",
+    "main.583a3e79.js.map": "/new_portofolio/static/js/main.583a3e79.js.map",
+    "787.b7af92ad.chunk.js.map": "/new_portofolio/static/js/787.b7af92ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1daa2c04.css",
+    "static/js/main.583a3e79.js"
+  ]
+}
