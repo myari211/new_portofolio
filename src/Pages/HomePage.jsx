@@ -10,6 +10,8 @@ import {
     MDBIcon,
 } from 'mdb-react-ui-kit';
 import Slider from 'react-slick';
+import { pdf } from '@react-pdf/renderer';
+import { saveAs } from 'file-saver';
 
 import Profile from '../Image/profile.jpg';
 import ReactImage from '../Image/react.png'
@@ -23,6 +25,7 @@ import API from '../Image/api.png';
 import HTML from '../Image/html.png';
 import CSS from '../Image/css.png';
 import GitHub from '../Image/github.png';
+import CV from '../Pdf/Ari_cv.pdf';
 
 
 
@@ -83,6 +86,10 @@ const HomePage = () => {
         console.log(url);
     }
 
+    const handlePdfButton = async() => {
+        window.open(CV, '_blank', 'noreferrer');
+    }
+
     return(
         <>
             <MDBContainer>
@@ -101,7 +108,7 @@ const HomePage = () => {
                             </MDBRow>
                             <MDBRow className="mt-4">
                                 <MDBCol size="12">
-                                    <MDBBtn color="warning" className="text-capitalize shadow-0">
+                                    <MDBBtn color="warning" className="text-capitalize shadow-0" onClick={handlePdfButton}>
                                         <MDBIcon icon="download" />
                                         &nbsp;&nbsp;Download My CV
                                     </MDBBtn>
@@ -218,14 +225,14 @@ const HomePage = () => {
                 </MDBRow>
                 <MDBRow className="d-flex justify-content-center mt-4">
                     <MDBCol size="8" className="d-flex justify-content-between">
-                        <MDBBtn className="p-2 rounded-circle" color="dark border">
+                        <MDBBtn className="p-2 rounded-circle" color="dark border" onClick={(event) => handleButtonUrl(event, 'https://github.com/myari211')}>
                             <MDBIcon fab icon='github' style={{fontSize: "50px"}}/>
                         </MDBBtn>
-                        <MDBBtn className="p-2 rounded-circle" color="primary border">
+                        <MDBBtn className="p-2 rounded-circle" color="primary border" onClick={(event) => handleButtonUrl(event, 'https://www.linkedin.com/in/myari211/')}>
                             <MDBIcon fab icon='linkedin' style={{fontSize: "50px"}}/>
                         </MDBBtn>
-                        <MDBBtn className="p-2 rounded-circle" color="danger border">
-                            <MDBIcon fab icon='instagram' style={{fontSize: "50px"}}/>
+                        <MDBBtn className="p-2 rounded-circle" color="danger border" onClick={(event) => handleButtonUrl(event, 'https://instagram.com/ari_pratama04')}>
+                            <MDBIcon fab icon='instagram' style={{fontSize: "50px"}} />
                         </MDBBtn>
                         <MDBBtn className="p-2 rounded-circle" color="success border">
                             <MDBIcon fab icon='whatsapp' style={{fontSize: "50px"}}/>
